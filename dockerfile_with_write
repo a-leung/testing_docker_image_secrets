@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+
+COPY super_secret_file /super_secret_file
+CMD rm -f /super_secret_file
